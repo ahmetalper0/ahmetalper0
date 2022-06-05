@@ -1,8 +1,10 @@
-name: Latest blog posts
+name: update-readme-bot
+
 on:
   schedule:
     - cron: '*/5  * * * *' 
   workflow_dispatch:
+  
 jobs:
   update-readme-with-latest-blog-posts:
     name: Update this repo's README with the latest blog posts
